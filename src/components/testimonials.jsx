@@ -10,7 +10,7 @@ export default class Testimonials extends Component {
               <h3>Testimonials</h3>
             </div>
               
-                <blockquote>
+                <blockquote className="experienceItem">
                   <p><q>Aswathi is not only an ambitious and eager team player but also an 
                     inspiring person. As I remember, Aswathi was a very productive person. 
                     Self motivated UI developer. Is able to play any role you need in any 
@@ -19,7 +19,6 @@ export default class Testimonials extends Component {
                   <footer>Udhayakumar Keshavan,<br />Usability Architect at Subex</footer>
                 </blockquote>
 
-            
                 <blockquote>
                   <p><q>I have worked with Aswathi for about 2+ years. those two years i have 
                   observed Aswathi is an ambitious Front end developer and a very good 
