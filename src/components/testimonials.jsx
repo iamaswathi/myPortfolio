@@ -20,7 +20,7 @@ export default class Testimonials extends Component {
                 </blockquote>
 
 
-                <blockquote>
+                <blockquote className="experienceItem">
                   <p><q>I have worked with Aswathi for about 2+ years. those two years i have 
                   observed Aswathi is an ambitious Front end developer and a very good 
                   team player. Self motivated and very productive in the work. She used 
@@ -33,13 +33,13 @@ export default class Testimonials extends Component {
                 </blockquote>
 
             
-                <blockquote>
+                <blockquote className="experienceItem">
                   <p><q>She is an ambitious UI developer, great attitude towards her work &amp; commitments.</q></p>
                   <footer>Anbarasu M,<br />Senior Business Analyst at FIS</footer>
                 </blockquote>
 
             
-                <blockquote>
+                <blockquote className="experienceItem">
                   <p><q>I worked with Aswathi for 3 years in 2 different projects. Her technical 
                     competence along with her dedication makes her a very important asset 
                     for any Project/Team. The reason for her being such a successful Angular 
