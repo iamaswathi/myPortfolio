@@ -21,9 +21,9 @@ class App extends Component {
         <Header />
         <About />
         <Skills />
-        <Extras />
         <Timeline />
         <Testimonials />
+        <Extras />
       </div>			
     );
   }

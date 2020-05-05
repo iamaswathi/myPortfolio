@@ -3,17 +3,17 @@ import React, { Component } from 'react'
 export default class About extends Component {
   render() {
     return (
-      <section class="darkContainer" id="AboutSec">
-        <div class="container">
-          <div class="row sectionSeparator">
-            <div class="col-sm-12 col-md-6">
-              <div class="aboutMeImgContainer">
-                {/* <div class="aboutMeImg"></div> */}
-            <img src="./assets/images/ab-img.png" alt="Heroine" class="aboutMeImg" />
+      <section className="darkContainer" id="AboutSec">
+        <div className="container">
+          <div className="row sectionSeparator">
+            <div className="col-sm-12 col-md-6">
+              <div className="aboutMeImgContainer">
+                {/* <div className="aboutMeImg"></div> */}
+            <img src="./assets/images/ab-img.png" alt="Heroine" className="aboutMeImg" />
               </div>
             </div>
 
-            <div class="col-sm-12 col-md-6">
+            <div className="col-sm-12 col-md-6">
               <h3>About Me</h3>
               <p>I am an experienced Frontend Developer with a demonstrated
                 history of working in the information technology and services
@@ -29,7 +29,7 @@ export default class About extends Component {
                   <li><span>jQuery Mobile</span></li>
                   <li><span>Agile methodology</span></li>
                 </ul>
-                <button class="downloadBtn">Downlaod CV <i class="fa fa-download"></i></button>
+                <button className="downloadBtn">Downlaod CV <i className="fa fa-download"></i></button>
             </div>
           </div>
         </div>
