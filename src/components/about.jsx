@@ -17,27 +17,27 @@ export default class About extends Component {
             <div className="col-sm-12 col-md-6">
               <h3>About Me</h3>
               <p>I am an experienced Frontend Developer with a demonstrated
-                history of working in the fintech, information technology and services
+              history of working in the fintech, information technology and services
                 industry. I'm good at</p>
-                <ul>
-                  <li><span>JavaScript</span></li>
-                  <li><span>TypeScript</span></li>
-                  <li><span>Angular</span></li>
-                  <li><span>HTML5</span></li>
-                  <li><span>CSS3</span></li>
-                  <li><span>React</span></li>
-                  <li><span>jQuery</span></li>
-                  <li><span>jQuery Mobile</span></li>
-                  <li><span>Agile methodology</span></li>
-                </ul>
-                <a href={pdf} target="_blank" rel="noopener noreferrer" download="AswathiPrakash_Resume.pdf">
-                  <button className="downloadBtn">Downlaod CV <i className="fa fa-download"></i></button>
-                </a>
+              <ul>
+                <li><span>JavaScript</span></li>
+                <li><span>TypeScript</span></li>
+                <li><span>Angular</span></li>
+                <li><span>HTML5</span></li>
+                <li><span>CSS3</span></li>
+                <li><span>React</span></li>
+                <li><span>jQuery</span></li>
+                <li><span>jQuery Mobile</span></li>
+                <li><span>Agile methodology</span></li>
+              </ul>
+              <a href={pdf} target="_blank" rel="noopener noreferrer" download="AswathiPrakash_Resume.pdf">
+                <button className="downloadBtn">Downlaod CV <i className="fa fa-download"></i></button>
+              </a>
             </div>
           </div>
         </div>
-      </section>   
-      
+      </section>
+
     )
   }
 }

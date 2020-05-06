@@ -21,14 +21,14 @@ export default class Header extends Component {
             <div className="col-sm-6">
               <div className="heroineImage">
                 <div className="heroineImageBorder">
-                    <img src={heroine} alt="" className="img-fluid" />
+                  <img src={heroine} alt="" className="img-fluid" />
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
         </div>
-      </section>   
-      
+      </section>
+
     )
   }
 }
