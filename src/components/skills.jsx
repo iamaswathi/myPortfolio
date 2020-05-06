@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Skills extends Component {
   render() {
     return (
-      <section className="darkContainer" id="SkillsSec">
+      <section className="darkContainer" id="ap-skills">
       <div className="container">
         <div className="row sectionSeparator">
           <div className="col-sm-12 col-md-6">
@@ -82,19 +82,19 @@ export default class Skills extends Component {
             <h3>Professional Skills</h3>
             <ul className="mh-professional-progress">
               <li>
-                  <div className="mh-progress mh-progress-circle active" data-progress="95"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" strokeWidth="5" fillOpacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" strokeWidth="5" fillOpacity="0" className="commSkill"></path></svg><p className="progressbar-text skillsCircle">95%</p></div>
+                  <div className="ap-progress ap-progress-circle active" data-progress="95"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" strokeWidth="5" fillOpacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" strokeWidth="5" fillOpacity="0" className="commSkill"></path></svg><p className="progressbar-text skillsCircle">95%</p></div>
                   <div className="pr-skill-name">Communication</div>
               </li>
               <li>
-                  <div className="mh-progress mh-progress-circle active" data-progress="78"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" strokeWidth="5" fillOpacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" strokeWidth="5" fillOpacity="0" className="projectMgntSkill"></path></svg><p className="progressbar-text skillsCircle">78%</p></div> 
+                  <div className="ap-progress ap-progress-circle active" data-progress="78"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" strokeWidth="5" fillOpacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" strokeWidth="5" fillOpacity="0" className="projectMgntSkill"></path></svg><p className="progressbar-text skillsCircle">78%</p></div> 
                   <div className="pr-skill-name">Team Work</div>
               </li>
               <li>
-                  <div className="mh-progress mh-progress-circle active" data-progress="90"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" strokeWidth="5" fillOpacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" strokeWidth="5" fillOpacity="0" className="teamWorkSkill"></path></svg><p className="progressbar-text skillsCircle">90%</p></div>
+                  <div className="ap-progress ap-progress-circle active" data-progress="90"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" strokeWidth="5" fillOpacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" strokeWidth="5" fillOpacity="0" className="teamWorkSkill"></path></svg><p className="progressbar-text skillsCircle">90%</p></div>
                   <div className="pr-skill-name">Project Management</div>
               </li> 
               <li>
-                  <div className="mh-progress mh-progress-circle active" data-progress="60"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" strokeWidth="5" fillOpacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" strokeWidth="5" fillOpacity="0" className="creativeSkill"></path></svg><p className="progressbar-text skillsCircle">80%</p></div>
+                  <div className="ap-progress ap-progress-circle active" data-progress="60"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" strokeWidth="5" fillOpacity="0"></path><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" strokeWidth="5" fillOpacity="0" className="creativeSkill"></path></svg><p className="progressbar-text skillsCircle">80%</p></div>
                   <div className="pr-skill-name">Creativity</div>
               </li>
           </ul>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Timeline extends Component {
   render() {
     return (
-      <section className="darkContainer" id="ExperienceSec">
+      <section className="darkContainer" id="ap-timeline">
       <div className="container">
         <div className="row sectionSeparator">
           <div className="col-sm-12 col-md-6">

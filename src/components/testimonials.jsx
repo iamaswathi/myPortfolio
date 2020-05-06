@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Testimonials extends Component {
   render() {
     return (
-      <section className="darkContainer" id="TestimonialSec">
+      <section className="darkContainer" id="ap-testimonials">
         <div className="container">
           <div className="row sectionSeparator">
             <div className="col-sm-12">
@@ -16,7 +16,7 @@ export default class Testimonials extends Component {
                     Self motivated UI developer. Is able to play any role you need in any 
                     development activity related to project. If you need a highly committed 
                     perfectionist, Aswathi is the right person.</q></p>
-                  <footer>Udhayakumar Keshavan,<br />Usability Architect at Subex</footer>
+                  <footer>Udhayakumar Keshavan,<br /><span>Usability Architect at Subex</span></footer>
                 </blockquote>
 
 
@@ -29,13 +29,13 @@ export default class Testimonials extends Component {
                   She played key role in all the projects that she had worked with me. 
                   Good attitude towards work and very committed resource. She is very quick 
                   learner, problem solver and eager to take more responsibilities.</q></p>
-                  <footer>Prabakaran Nandakumar,<br />Principal Architect at QuEST Global</footer>
+                  <footer>Prabakaran Nandakumar,<br /><span>Principal Architect at QuEST Global</span></footer>
                 </blockquote>
 
             
                 <blockquote className="experienceItem">
                   <p><q>She is an ambitious UI developer, great attitude towards her work &amp; commitments.</q></p>
-                  <footer>Anbarasu M,<br />Senior Business Analyst at FIS</footer>
+                  <footer>Anbarasu M,<br /><span>Senior Business Analyst at FIS</span></footer>
                 </blockquote>
 
             
@@ -49,7 +49,7 @@ export default class Testimonials extends Component {
                     Aswathi has ensured she has delivered a very good quality of code and also 
                     documented every minute aspect which in itself is sufficient even for a new 
                     developer to take her piece of code. Wishing Aswathi all success.</q></p>
-                  <footer>Nithin Pavithran,<br />Senior Software Test Analyst at FIS</footer>
+                  <footer>Nithin Pavithran,<br /><span>Senior Software Test Analyst at FIS</span></footer>
                 </blockquote>
 
             

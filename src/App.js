@@ -13,11 +13,13 @@ import './App.scss';
 import "./custom.scss";
 import Header from './components/header';
 import Testimonials from './components/testimonials';
+import NavBar from './components/navbar';
 
 class App extends Component {
   render() {
     return (
       <div>
+        <NavBar />
         <Header />
         <About />
         <Skills />

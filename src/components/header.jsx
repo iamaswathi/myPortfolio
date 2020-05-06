@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import heroine from '../assets/images/aswathi.png'
 
 export default class Header extends Component {
   render() {
     return (
-      <section className="darkContainer" id="HeaderSec">
+      <section className="darkContainer" id="ap-header">
         <div className="container">
           <div className="row sectionSeparator">
             <div className="col-sm-6">
@@ -20,9 +21,9 @@ export default class Header extends Component {
             <div className="col-sm-6">
               <div className="heroineImage">
                 <div className="heroineImageBorder">
-                  <img src="/Users/Achu/Study_React/myPortfolio/src/assets/images/hero.png" alt="Heroine" />
+                    <img src={heroine} alt="" className="img-fluid" />
                 </div>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
