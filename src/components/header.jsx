@@ -6,8 +6,8 @@ export default class Header extends Component {
     return (
       <section className="darkContainer" id="ap-header">
         <div className="container">
-          <div className="row sectionSeparator">
-            <div className="col-sm-6">
+          <div className="row sectionSeparator ap-header-padding">
+            <div className="col-sm-6 ap-header-padding1">
               <span className="whoAmI">Hello I'm</span>
               <h2>Aswathi Prakash</h2>
               <h4>Frontend developer</h4>
@@ -19,7 +19,7 @@ export default class Header extends Component {
               </ul>
             </div>
 
-            <div className="col-sm-6">
+            <div className="col-sm-6 ap-header-padding2">
               <div className="heroineImage">
                 <div className="heroineImageBorder">
                   <img src={heroine} alt="" className="img-fluid" />
