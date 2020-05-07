@@ -35,14 +35,10 @@ export default class Timeline extends Component {
               <div className="experienceItem">
                 <h4>Bachelor of Computer Science Engineering from <span>Periyar University</span></h4>
                 <div className="eduYear">2008-2012</div>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a
-                  page when looking at its layout. The point of using  Lorem Ipsum </p>
               </div>
               <div className="experienceItem">
                 <h4>Higher Secondry Education from <span>Ursuline Senior Secondary School</span></h4>
                 <div className="eduYear">2006-2008</div>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a
-                  page when looking at its layout. The point of using  Lorem Ipsum </p>
               </div>
             </div>
           </div>
