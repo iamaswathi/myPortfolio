@@ -9,8 +9,6 @@ class NavBar extends Component {
                 <nav className="navbar navbar-expand-md navbar-dark fixed-top nav-sec ap-fixed-nav nav-strict">
                     <div className="container">
                         {/* Brand */}
-                        {/* <img src={logo} className="navbar-brand" alt="logo" /> */}
-                        {/* <a className="navbar-brand" href="#app-header">Navbar</a> */}
                         <span className="ap-logo">ap</span>
 
                         {/* Toggler/collapsibe Button */}
