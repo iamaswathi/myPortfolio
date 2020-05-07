@@ -14,7 +14,8 @@ export default class Header extends Component {
               <ul>
                 <li><i className="fa fa-envelope"></i><a href="mailto:">inboxaswathi@gmail.com</a></li>
                 <li><i className="fa fa-phone"></i><a href="callto:">+61 401179442</a></li>
-                <li><i className="fa fa-map-marker"></i><address>54, Fitzroy Srt, Burwood, NSW, Australia</address></li>
+                <li><i className="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/aswathi-prakash/" target="blank">linkedin.com/in/aswathi-prakash/</a></li>
               </ul>
             </div>
 

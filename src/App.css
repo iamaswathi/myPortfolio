@@ -58,7 +58,6 @@ body {
 .darkContainer {
     background-color: #100e17;
     color: #ffffff;
-    padding: 30px 20px;
 }
 
 .darkContainer button:active {
@@ -122,6 +121,15 @@ ul li {
     margin: 0 20px;
 }
 
+.nav-sec .navbar-nav .nav-link.active,
+.nav-sec .navbar-nav .nav-item a:hover {
+    color: #0bceaf;
+}
+
+.nav-sec .navbar-nav .nav-link.active {
+    border-bottom: 1px solid #0bceaf;
+}
+
 .nav-sec .navbar-nav li a {
     border-bottom: 1px solid transparent;
     font-weight: bold;
@@ -136,9 +144,10 @@ ul li {
     padding-right: 0;
 }
 
-.nav-sec .navbar-nav li a:hover {
+
+/* .nav-sec .navbar-nav li a:hover {
     color: #0bceaf;
-}
+} */
 
 .nav-strict {
     z-index: 99;
@@ -179,9 +188,14 @@ ul li a {
     color: #ffffff;
 }
 
-.fa {
+.fa,
+.fab {
     margin-right: 15px;
     display: inline-block;
+}
+
+.fab {
+    font-size: 18px;
 }
 
 #ap-header ul li .fa:hover {

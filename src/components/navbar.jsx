@@ -1,14 +1,16 @@
 
 import React, { Component } from "react";
+// import logo from '../assets/images/logo-ap.gif'
 
 class NavBar extends Component {
     render() {
         return (
-            <header className="darkContainer">
-                <nav className="navbar navbar-expand-md navbar-dark fixed-top nav-sec ap-fixed-nav">
+            <header className="darkContainer" id="ap-navbar">
+                <nav className="navbar navbar-expand-md navbar-dark fixed-top nav-sec ap-fixed-nav nav-strict">
                     <div className="container">
                         {/* Brand */}
-                        <a className="navbar-brand" href="#app-header">Navbar</a>
+                        {/* <img src={logo} className="navbar-brand" alt="logo" /> */}
+                        {/* <a className="navbar-brand" href="#app-header">Navbar</a> */}
 
                         {/* Toggler/collapsibe Button */}
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -18,7 +20,7 @@ class NavBar extends Component {
                         {/* Navbar links */}
                         <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                             <ul className="navbar-nav">
-                                <li className="nav-item active">
+                                <li className="nav-item">
                                     <a className="nav-link" href="#ap-header">Home</a>
                                 </li>
                                 <li className="nav-item">
