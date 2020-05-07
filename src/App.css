@@ -117,7 +117,7 @@ ul li {
 }
 
 .nav-sec.nav-strict {
-    padding: 10px 0;
+    padding: 10px 20px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -604,4 +604,8 @@ blockquote:nth-of-type(even) footer:after {
     blockquote:nth-of-type(even) {
         padding: 1em 1em 1em 20%;
     }
+}
+
+.social-icon li {
+    display: inline-block;
 }

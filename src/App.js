@@ -14,21 +14,32 @@ import "./custom.scss";
 import Header from './components/header';
 import Testimonials from './components/testimonials';
 import NavBar from './components/navbar';
+import Footer from './components/footer';
 
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <NavBar />
-        <Header />
-        <About />
-        <Skills />
-        <Timeline />
-        <Testimonials />
-        <Extras />
-      </div>			
-    );
-  }
+    render() {
+        return ( <
+            div >
+            <
+            NavBar / >
+            <
+            Header / >
+            <
+            About / >
+            <
+            Skills / >
+            <
+            Timeline / >
+            <
+            Testimonials / >
+            <
+            Extras / >
+            <
+            Footer / >
+            <
+            /div>			
+        );
+    }
 }
 
 export default App;
