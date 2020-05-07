@@ -50,6 +50,14 @@ body {
     opacity: 0.9;
 }
 
+.ap-logo {
+    font-family: 'Marck Script';
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
+}
+
 .sectionSeparator {
     padding: 50px 0;
     padding-top: 100px;
@@ -102,7 +110,7 @@ ul li {
 }
 
 .nav-sec {
-    padding: 10px 0;
+    padding: 10px 20px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     background-color: #202026;

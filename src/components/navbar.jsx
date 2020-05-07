@@ -11,6 +11,7 @@ class NavBar extends Component {
                         {/* Brand */}
                         {/* <img src={logo} className="navbar-brand" alt="logo" /> */}
                         {/* <a className="navbar-brand" href="#app-header">Navbar</a> */}
+                        <span className="ap-logo">ap</span>
 
                         {/* Toggler/collapsibe Button */}
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
