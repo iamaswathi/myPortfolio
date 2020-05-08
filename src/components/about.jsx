@@ -5,7 +5,7 @@ import aboutme from '../assets/images/ab-img.png'
 export default class About extends Component {
   render() {
     return (
-      <section className="darkContainer" id="ap-about">
+      <section className="darkContainer animated animStyle fadeInUp go" id="ap-about">
         <div className="container">
           <div className="row sectionSeparator">
             <div className="col-sm-12 col-md-6">
