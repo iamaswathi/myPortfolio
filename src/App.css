@@ -46,8 +46,9 @@ body {
     overflow-x: hidden !important;
     text-align: left;
     position: relative;
-    color: #999999;
+    color: #ffffff;
     opacity: 0.9;
+    background: rgba(0, 0, 0);
 }
 
 .ap-logo {
@@ -198,7 +199,8 @@ ul li a {
     font-size: 18px;
 }
 
-#ap-header ul li .fa:hover {
+#ap-header ul li .fa:hover,
+#ap-header ul li .fab:hover {
     color: #0bceaf;
 }
 
@@ -606,6 +608,45 @@ blockquote:nth-of-type(even) footer:after {
     }
 }
 
+footer {
+    padding-top: 20px;
+}
+
 .social-icon li {
     display: inline-block;
+}
+
+
+/* .social-icon .fab {
+    font-size: 28px;
+} */
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }

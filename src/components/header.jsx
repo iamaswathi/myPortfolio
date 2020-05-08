@@ -14,8 +14,13 @@ export default class Header extends Component {
               <ul>
                 <li><i className="fa fa-envelope"></i><a href="mailto:">inboxaswathi@gmail.com</a></li>
                 <li><i className="fa fa-phone"></i><a href="callto:">+61 401179442</a></li>
-                <li><i className="fab fa-linkedin"></i>
-                <a href="https://www.linkedin.com/in/aswathi-prakash/" target="blank">linkedin.com/in/aswathi-prakash/</a></li>
+                {/* <li><i className="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/aswathi-prakash/" target="blank">linkedin.com/in/aswathi-prakash/</a></li> */}
+              </ul>
+              <ul className="social-icon wow fadeInUp animStyle" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                <li><a href="https://www.facebook.com/aswathi.prakash" target="blank"><i className="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/aswathi-prakash/" target="blank"><i className="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/achuspran" target="blank"><i className="fab fa-github"></i></a></li>
               </ul>
             </div>
 
@@ -26,6 +31,14 @@ export default class Header extends Component {
                 </div>
               </div>
             </div>
+
+            {/* <div className="col-sm-12 text-center">
+              <ul className="social-icon">
+                <li><a href="https://www.facebook.com/aswathi.prakash" target="blank"><i className="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/aswathi-prakash/" target="blank"><i className="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/achuspran" target="blank"><i className="fab fa-github"></i></a></li>
+              </ul>
+            </div> */}
           </div>
         </div>
       </section>
