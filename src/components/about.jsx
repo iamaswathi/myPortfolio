@@ -16,6 +16,8 @@ export default class About extends Component {
 
             <div className="col-sm-12 col-md-6">
               <h3>About Me</h3>
+              <p>I'm obsessed with making things and even more obsessed with making things better. After graduating from Periyar University I've been actively involved in the website and mobile application development for the last 7+ years. My specialty is website development, making pixel cut, beautiful semantic HTML & CSS. 
+When I'm not at my desk, I probably hang out with my husband, cook something new, get myself occupied with art and craft work, reading, gardening or stitching, I am a neat freak, so you can imagine what else I will be doing!</p>
               <p>I am an experienced Frontend Developer with a demonstrated
               history of working in the fintech, information technology and services
                 industry. I'm good at</p>
