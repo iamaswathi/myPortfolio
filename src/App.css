@@ -262,6 +262,10 @@ ul li a {
 
 /* About Section */
 
+#ap-about span.iam {
+    font-size: 20px;
+}
+
 #ap-about ul li {
     margin: 0px 6px;
     border-radius: 4px;
@@ -274,6 +278,10 @@ ul li a {
     border: 1px solid #0bceaf;
     padding: 4px 10px;
     border-radius: 4px;
+}
+
+#ap-about .fa-arrow-right {
+    color: #0ab69a;
 }
 
 .aboutMeImg {
@@ -555,7 +563,8 @@ blockquote:not(:first-of-type) {
     margin-top: .5em;
 }
 
-blockquote p {
+blockquote p,
+.myquote {
     color: #555;
     font-size: 12pt;
     line-height: 1.4;

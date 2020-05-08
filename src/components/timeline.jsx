@@ -40,6 +40,12 @@ export default class Timeline extends Component {
                 <h4>Higher Secondry Education from <span>Ursuline Senior Secondary School</span></h4>
                 <div className="eduYear">2006-2008</div>
               </div>
+
+              <h3>Award</h3>
+              <div className="experienceItem">
+                <h4>Global finalist in fintech hackathon- InnovateIN48 2019, conducted by FIS global</h4>
+                <div className="eduYear">2019</div>
+              </div>
             </div>
           </div>
         </div>

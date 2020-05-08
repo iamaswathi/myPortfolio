@@ -31,14 +31,14 @@ export default class Header extends Component {
                 </div>
               </div>
             </div>
+          </div>
 
-            {/* <div className="col-sm-12 text-center">
-              <ul className="social-icon">
-                <li><a href="https://www.facebook.com/aswathi.prakash" target="blank"><i className="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/aswathi-prakash/" target="blank"><i className="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/achuspran" target="blank"><i className="fab fa-github"></i></a></li>
-              </ul>
-            </div> */}
+          <div className="row">
+            <div className="col-sm-12 text-center">
+              <p className="myquote"> " Everyday is a chance for improvement. <br />There’s no reason we shouldn’t be taking 
+                that opportunity we have been given. So my plan is to get better. <br/>
+                Personally &#38; Professionally. To be better Every day. "</p>
+            </div>
           </div>
         </div>
       </section>
