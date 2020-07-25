@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import pdf from '../assets/AswathiPrakash_Resume.pdf'
+import pdf from '../assets/AswathiPrakash.pdf'
 import aboutme from '../assets/images/ab-img.png'
 
 export default class About extends Component {
@@ -46,7 +46,7 @@ export default class About extends Component {
           </div>
           <div className="row">
             <div className="col-sm-12 text-center">
-              <a href={pdf} target="_blank" rel="noopener noreferrer" download="AswathiPrakash_Resume.pdf">
+              <a href={pdf} target="_blank" rel="noopener noreferrer" download="AswathiPrakash.pdf">
                 <button className="downloadBtn">Downlaod CV <i className="fa fa-download"></i></button>
               </a>
             </div>
