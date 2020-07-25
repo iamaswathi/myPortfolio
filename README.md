@@ -1,6 +1,6 @@
-#Portfolio build on React 
+#Portfolio built using React JS
 
-https://github.com/iamaswathi/myPortfolio/workflows/Deploy%20Front-End%20to%20S3%20%26%20CloudFront/badge.svg
+![Workflow status](https://github.com/iamaswathi/myPortfolio/workflows/Deploy%20Front-End%20to%20S3%20%26%20CloudFront/badge.svg)
 
 ## Available Scripts
 
