@@ -32,8 +32,6 @@ class App extends Component {
             Timeline / >
             <
             Testimonials / >
-//             <
-//             Extras / >
             <
             Footer / >
             <
