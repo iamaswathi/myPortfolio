@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 import './App.css';
 import About from './components/about'
 import Skills from './components/skills';
-import Extras from './components/extras';
+// import Extras from './components/extras';
 import Timeline from './components/timeline';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
